@@ -15,16 +15,15 @@ const Card =() =>{
                 Meu primeiro Card
             </div>
             <div className="card-body">
-                <Button>
+                <Button
                 className="btn btn-success"
                 onClick={Adicionar} 
-                    
+                    >
                     Adicionar
                 </Button>
-                     
-                <Button>
+                <Button
                 className="btn btn-danger"
-                onClick={Remover} 
+                onClick={Remover} >
                     
                    Remover
                 </Button>
@@ -34,4 +33,4 @@ const Card =() =>{
 
     )
 }
-export default Card
+export default Card;
